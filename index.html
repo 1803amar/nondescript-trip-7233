@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>navbar</title>
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-            box-sizing: border-box;
-        }
-        nav{
-            background-color:#E57CD8;
-            height: 31px;
-            width: 100%;
-            margin: auto;
-            display: flex;
-            justify-content: flex-end;
-
-           
-       
-        }
-        nav ul{
-            float: right ;
-            margin-right: 20px; 
-        }
-        nav ul li{
-            display: inline-block;
-            line-height: 80px;
-            margin: 0 5px;
-        }
-        nav ul li a{
-            margin-top: -20px;
-            line-height: 1.35;
-            cursor: pointer;
-            font-size: 0.75rem;
-            color: #2C1338;
-            margin: 0 10px;
-        }
-       
-        #check{
-            display: none;
-
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Toggl Track</title>
 </head>
+
 <body>
-    <nav>
-        <input type="checkbox" name="" id="check" u="">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-            <li><a class="active" href="#">Back to Toggle Global</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Our Mission</a></li>
-            <li><a href="#">Working at Toggle</a></li>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img
+                    src="https://public-assets.toggl.space/58c88da8-9f59-4fb5-ae83-1ebcfa063516/static/9e32f4f0f2d8c5041c49c63a3671b74e/eaf78/download-media-logo-horizontal.avif"
+                    alt="logo"></div>
+            <li><a href="#product"> Product</a></li>
+            <li><a href="#pricing"> Pricing</a></li>
+            <li><a href="#why-track"> Why Track?</a></li>
+            <li><a href="#careers"> Careers</a></li>
         </ul>
+        <div class="rightnav">
+            <ul>
+                <li><a href="book-demo">Book a Demo</a></li>
+                <li><a href="">|</a></li>
+                <li><a href="login">Login</a></li>
+                <button class="btn">Try for free</button>
+            </ul>
+        </div>
     </nav>
-    
+    <section class="background firstsection">
+        <h1 class="heading">Simple time tracking to save you <em>time</em> and <em>money</em>.</h1>
+        <div class="box-main">
+            <div class="firsthalf">
+
+                <p class="text-small">Bill accurately, measure profitability, manage
+                    workloads — and spend less time on it all.</p>
+                <div id="signup">
+                    <div class="signin">
+                        <input class="email" name="email" type="email" placeholder="Email">
+                        <input class="email" name="email" type="email" placeholder="A strong password">
+                        <div class="signin-txt">
+                            <button class="btn-signin">Sign up with email</button>
+                            <p>Or sign up with:
+                                <img class="g-img"
+                                    src="https://www.nicepng.com/png/detail/13-134988_google-logo-png-transparent-google-g-logo-black.png"
+                                    alt="google">
+                                <img class="a-img"
+                                    src="https://www.nicepng.com/png/detail/15-157874_apple-logo-png-file2-apple-logo-png.png"
+                                    alt="apple">
+                            </p>
+                        </div>
+                        <p>By signing up, you agree to our , privacy policy and to receiving marketing communication
+                            from Toggl Track. You can opt out anytime.</p>
+
+                    </div>
+                    <div>
+                        <button class="standup">Stand-up meeting</button>
+                        <p class="slogan">“I love the ease of just clocking in and out with just one click!”</p>
+                        <p class="slogan">– Quelani P.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="secondhalf"></div>
+        </div>
+    </section>
+
 </body>
+
 </html>

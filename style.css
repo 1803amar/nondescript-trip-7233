@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    margin-top: -2%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    cursor: pointer;
+}
+.logo img{
+    width: 100%;
+
+}
+.nav-list{
+
+    width: 75%;
+    background-color: #2C1338;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: #E57CD8;
+}
+.rightnav{
+    background-color: #2C1338;
+    width: 25%;
+    text-align: right;  
+}
+.rightnav ul{
+    display: flex;
+    text-align: right;
+    margin-top: 25px; 
+}
+.rightnav li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.rightnav li a{
+    text-decoration: none;
+    color: white;
+}
+.rightnav li a:hover{
+    text-decoration: none;
+    color: #E57CD8;
+}
+.btn{
+    border-radius: 40px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FCE5D8;
+    color: rgb(229, 124, 216);
+    border: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.btn:hover{
+    border-radius: 40px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4a2e56;
+    color: rgb(229, 124, 216);
+}
+.background{
+    background-color: #2C1338;
+}
+.heading{
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: clamp(4.5rem * 0.5, 4.2vw, 4.5rem);
+    color: white;
+    margin-bottom: 25px;
+    text-align: left;
+    max-width: 850px;
+    margin-left: 10%;
+}
+.heading em{
+    color: #E57CD8;
+    font-family: 'GT Haptik Medium Rotalic',sans-serif;
+    box-sizing: border-box;
+}
+.box-main{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 80%;
+}
+.firsthalf{
+
+}
+#signup{
+    display: flex;
+}
+.text-small{
+    line-height: 1.5;
+    font-size: 28px;
+    margin-bottom: 40px;
+    max-width: 50%;
+    margin: 0;
+    color: #FCE5D8
+}
+.signin{
+    width: 50%;
+    display: grid;
+    padding: 20px;
+    row-gap: 25px;
+}
+.email{
+    background: transparent;
+    border: 2px solid #ABA0AF;
+    height: 50px;
+    padding-left: 15px;
+    caret-color: #2C1338;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    color: #FCE5D8;
+    width: 70%;
+    margin-left: -5%;
+}
+.signin-txt{
+    display: flex;
+}
+.btn-signin{
+    margin-top: 0px;
+    width: 40%;
+    height: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background-color: #E57CD8;
+    color: #FFF;
+    align-items: center;
+    border-radius: 26px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: -5%;
+}
+.btn-signin:hover{
+    background-color: #4a2e56;
+}
+.g-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.a-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.standup{
+    height: 100px;
+    width: 500px;
+    border-radius: 25px;
+    font-size: larger;
+    margin:auto;
+}
+.slogan{
+    padding-top: 20px;
+    font-family: 'GT Haptik Medium',sans-serif;
+    width: 60%;
+    line-height: 1.1;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+    margin:auto;
+}
+
+
